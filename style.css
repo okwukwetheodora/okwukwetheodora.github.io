@@ -1,0 +1,72 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  position: relative; 
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container::before{
+  content: "";
+   background: url(Company\ Logo\ -\ Copy.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.07;
+}
+
+h1 {
+  font-size: 3em;
+  color: #000930;
+  margin-top: 40px;
+  font-family: 'PT Sans Narrow', sans-serif;
+  letter-spacing: 5px;
+
+}
+
+.buffer {
+  height: 15px;
+}
+
+hr {
+  border-color: #000930;
+  border-width: 10px;
+  max-width: 80%;
+}
+
+.btn {
+  border-radius: 300px;
+  font-weight: 800;
+}
+
+.btn-warning {
+  background-color: #000930;
+  color: #ffd000;
+  border-color: #ffd000;
+  border-width: 3px;
+}
+
+.btn-warning:hover {
+  border-width: 5px;
+  background-color: #ffd000;
+  border-color: #ffd000;
+}
+
+
+.btn-xl {
+  padding: 1rem 2rem;
+}
